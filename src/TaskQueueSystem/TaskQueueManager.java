@@ -1,6 +1,4 @@
 package TaskQueueSystem;
-import StudentManagement.Student;
-import StudentManagement.StudentManager;
 
 import java.util.List;
 import java.util.LinkedList;
