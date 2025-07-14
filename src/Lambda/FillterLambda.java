@@ -7,12 +7,11 @@ public class FillterLambda {
         int[] arr = {10, 20, 30, 40, 50};
 
 //         Filter values greater than 25
-        int[] filtered = Arrays.stream(arr)
+        int[] filtered;
+                 Arrays.stream(arr)
                 .filter(x -> x < 25)
-                .toArray();
+                .forEach(System.out::println);
 
-        int[] use ;
-        Arrays.stream(filtered).forEach((a) -> System.out.println(a));
 
     }
 }
